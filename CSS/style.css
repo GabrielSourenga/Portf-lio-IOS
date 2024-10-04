@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navegação */
+
+header {
+    background-color: #4D2D52;
+}
+
+img{ 
+    width: 150px;
+}
+
+/* Calendário */
+
+body {
+    background-color: #1D1A31;
+    color: #C1A5A9;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: bisque;
+    page-break-inside: auto;
+    width: 100%;
+    background-color: #1D1A31;
+}
+
+tr,
+th,
+td {
+    text-align: center;
+    font-family: cursive;
+    height: 100px;
+    background-color: #4D2D52;
+}
+
+th {
+    background-color: brown;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+}

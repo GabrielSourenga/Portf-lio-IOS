@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navegação */
+
+header {
+    background-color: #4D2D52;
+}
+
+img{ 
+    width: 150px;
+}
+
+/* Corpo */
+
+body {
+    background-color: #1D1A31;
+    color: #C1A5A9;
+}
+
+fieldset {
+    background-color: #1D1A31;
+}
+
+form{
+    background-color: #1D1A31;
+}
+
+.preencher, textarea {
+    background-color: #4D2D52;
+}

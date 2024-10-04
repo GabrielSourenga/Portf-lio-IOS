@@ -1,0 +1,85 @@
+
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Permanent+Marker&display=swap');
+
+/* CABEÇALHO */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Imagens/Fundo_Login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: red;
+}
+
+.cabeçalho {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Creepster";
+}
+
+.cabeçalho:hover {
+    text-decoration: underline;
+}
+
+/* VENDO LIVROS */
+
+.livrinhos {
+    width: 8vw;
+}
+
+.l1 {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.l2 {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.l3 {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    color: black;
+    margin: 20px 50px 50px 500px ;
+    padding: 20px 50px 20px 50px;
+    max-width: 900px;
+    font-family: "Creepster";
+    border: solid 5px white;
+}
+
+.preço {
+    color: white;
+    font-family: "Creepster";
+    font-size: 50px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}

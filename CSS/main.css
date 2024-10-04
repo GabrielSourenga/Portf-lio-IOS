@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&family=Permanent+Marker&family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&family=Lilita+One&family=Permanent+Marker&family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&family=Lilita+One&family=Permanent+Marker&family=Protest+Strike&family=Rowdies:wght@300;400;700&display=swap');
+
+/* Root */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Barra de Navegação */
+
+header {
+    background-color: #4D2D52;
+}
+
+nav {
+    background-color: #4D2D52;
+    text-align: center;
+    display: flex;
+
+}
+
+.Logo {
+    width: 150px;
+}
+
+.barra {
+    text-decoration: none;
+    margin: 50px 50px;
+    padding: 20px 50px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: #1D1A31;
+    color: white;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.barra:hover {
+    color: black;
+    background-color: #C1A5A9;
+
+}
+
+/* Sobre */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: inline-flex;
+}
+
+
+.box1 {
+    display: block;
+    margin: 60px 0px;
+    padding: 70px 60px;
+    background-image: url(../Imagens/Untitled\ design\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.sub {
+    font-size: 40px;
+}
+
+.titulo {
+    font-family: "Protest Strike", sans-serif;
+    color: #7d2997;
+}
+
+.box2 {
+    display: block;
+    width: 800px;
+    margin: 60px 70px;
+
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "Protest Strike", sans-serif;
+    color: #7d2997;
+}
+
+.descrição {
+    font-size: 25px;
+    font-family: "Lilita One", sans-serif;
+}
+
+/* Projetos */
+
+.projeto {
+    margin: 40px;
+    text-align: center;
+}
+
+.links {
+    text-decoration: none;
+    color: #7EB2DD
+}
+
+#carouselExampleCaptions {
+    text-align: center;
+}
+
+/* Fale Comigo */
+
+#Falecomigo {
+    text-align: center  ;
+}
+
+.assunto {
+    margin-top: 50px;
+}
+
+input, textarea {
+    background-color: #4D2D52;
+    width: 50%;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+textarea:hover {
+    background-color: #C1A5A9;
+    color: #7d2997;
+}
+
+input:hover {
+    background-color: #C1A5A9;
+    color: #7d2997;
+}
+
+
+label {
+    font-family: "Rowdies", sans-serif;
+    font-size: 25px;
+    margin-left: 20px ;
+}
+
+.enviar {
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.enviar:hover {
+    background-color: #C1A5A9;
+    color: black;
+}
+
+/* Final */
+
+footer {
+    text-align: center;
+    background-color: #4D2D52;
+}
+
+.Fredes {
+    display: inline-flex;
+    padding: 30px;
+    text-align: center;
+}
+
+.fin {
+    font-family: "Protest Strike", sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+.redes {
+    width: 50px;
+}
+
+a {
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+figcaption {
+    color: white;
+}
+

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* FONTES */
+
+/* GERAL */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: red;
+    border: 3px solid white;
+    display: flex;
+    width: 105%;
+}
+
+.cabeçalho {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Creepster";
+}
+
+.cabeçalho:hover {
+    text-decoration: underline;
+}
+
+/* PRODUTO */
+
+img {
+    height: 400px;
+}
+
+.gredo {
+    height: 450px;
+}
+
+h2 {
+    margin: 20px 0px 0px 30px;
+    display: block;
+    color: white;
+    font-family: "Creepster";
+    font-size: 2rem;
+}
+
+p {
+    margin: 10px 0px 0px 30px;
+    max-width: 500px;
+}
+
+.butao {
+    border: solid 5px red;
+    background-color: black;
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    margin: 20px;
+    font-family: "Creepster"; 
+    text-decoration: none;
+}
+
+.butao:hover {
+    text-decoration: underline;
+}
+
+.preço {
+    font-family: "Creepster";
+    font-size: 70px;
+    color: white;
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+.principal {
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+    margin: 30px;
+}
+
+.compra {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PROPAGANDA DOS OUTROS PRODUTOS */
+
+.propaganda1 {
+    display: flex;
+    justify-content: right;
+    margin: 30px;
+    margin-right: 100px;
+}
+
+.propaganda2 {
+    display: flex;
+    justify-content: right;
+    margin: 30px;
+    margin-right: 100px;
+}
+
+.imgPropaganda {
+    height: 150px;
+}
+
+.legenda {
+    font-family: "Creepster";
+    color: white;
+    max-width: 100px;
+    text-decoration: none;
+}
+
+.aaaaaa {
+    display: inline-block;
+    margin-left: 1000px;
+}
+
+/* Descrição do Livro */
+
+.membro {
+    margin: 60px 20px 0px 10px;
+    font-family:"Shadows Into Light" ;
+    color: red;
+    font-size: 20px;
+}
+
+.descriçao {
+    display: flex;
+}
+
+.pagina {
+    height: 200px;
+    margin: 40px 0px 0px 30px;
+}
