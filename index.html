@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,23 +17,28 @@
     <header>
 
         <nav>
-            <a href="index.html">
-                <img src="./Imagens/Logo.png" alt="Logo Portifolio" class="Logo"></a>
 
-            <a href="./index.html" class="barra">Home</a>
-            <a href="#Sobremim" class="barra">Sobre</a>
-            <a href="#Falecomigo" class="barra">Duvida</a>
-            <a href="#Contato" class="barra">Contato</a>
+            <a href="index.html">
+                <img src="./Imagens/Logo.png" alt="Logo do Portifolio" class="logo">
+            </a>
+
+            <div class="navegacao">
+                <ul>
+                    <li class="barra sem"><a href="./index.html">Home</a></li>
+                    <li class="barra"><a href="#sobreMim">Sobre</a></li>
+                    <li class="barra"><a href="#faleComigo">Dúvida</a></li>
+                    <li class="barra"><a href="#contato">Contato</a></li>
+                    <li><button id="toggle-button">Mudar o tema</button></li>
+                    
+                </ul>
+        </div>
 
         </nav>
 
     </header>
 
-    <!-- ================================================================================================= -->
-
     <main>
-
-
+        
         <div class="box1">
             <h1 class="titulo">Gabriel Alvarenga</h1>
 
@@ -42,7 +46,7 @@
         </div>
 
         <div class="box2">
-            <h3 id="Sobremim">Sobre mim</h3>
+            <h3 id="sobreMim">Sobre mim</h3>
 
             <p class="descrição">Olá, Tudo bem? <br>
                 Me chamo Gabriel Alvarenga, tenho 16, estou no ensino médio e também no momento estou fazendo um curso
@@ -116,12 +120,7 @@
 
     </section>
 
-
-
-    <!-- ============================================================================================================== -->
-
-
-    <section id="Falecomigo">
+    <section id="faleComigo">
         <h2 class="titulo sub">Fale comigo</h2>
 
         <form action="#">
@@ -149,11 +148,9 @@
 
     </section>
 
-    <br><br><br>
+    <footer class="final">
 
-    <footer>
-
-        <h2 id="Contato" class="fin">Redes Sociais</h2>
+        <h2 id="contato" class="fin">Redes Sociais</h2>
 
         <div class="Fredes">
             <a href="mailto:gabriel.alvarenga861@gmail.com" target="_blank]">
@@ -163,8 +160,6 @@
                 </figure>
             </a>
 
-
-
             <a href="https://www.instagram.com/gaabriel_alvaarengaa/" target="_blank">
                 <figure>
                     <img src="./Imagens/instagram.png" alt="Icone do Instagram" width="50" class="redes">
@@ -172,14 +167,12 @@
                 </figure>
             </a>
 
-
             <a href="https://www.linkedin.com/in/gabriel-souza-alvarenga-85549a325/" target="_blank">
                 <figure>
                     <img src="./Imagens/linkedin.png" alt="Icone do Linkedin" width="50" class="redes">
                     <figcaption>Linkedin</figcaption>
                 </figure>
             </a>
-
 
             <a href="https://github.com/GabrielSourenga" target="_blank">
                 <figure>
@@ -190,10 +183,11 @@
 
     </footer>
 
+    <script src="./Javascript/main.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
 
 </html>

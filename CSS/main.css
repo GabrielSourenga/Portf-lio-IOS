@@ -24,25 +24,36 @@ header {
 
 nav {
     background-color: #4D2D52;
-    text-align: center;
     display: flex;
-
+    justify-content: space-between;
 }
 
-.Logo {
+ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.logo {
     width: 150px;
+}
+
+.navegacao {
+    display: flexbox;
+    margin-top: 70px;
+    flex-direction: column;
 }
 
 .barra {
     text-decoration: none;
-    margin: 50px 50px;
-    padding: 20px 50px;
+    margin: 0px 50px;
+    padding: 20px 0px;
     border: solid 3px black;
     border-radius: 10px;
-    background-color: #1D1A31;
+    background-color: #2D235C;
     color: white;
     transition: color 0.5s;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s;  
 }
 
 .barra:hover {
@@ -51,28 +62,57 @@ nav {
 
 }
 
+.sem {
+    text-decoration: none;
+}
+
+button {
+    text-decoration: none;
+    padding: 20px 50px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: #2D235C;
+    color: white;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+    color: #1D52F2;
+}
+
+.butao:hover {
+    color: black;
+    background-color: #C1A5A9;
+
+}
+
+
+/* Estilo para o tema escuro */
+body.dark-mode {
+    background-color: black;
+    color: #fff;
+}
+
+button.dark-mode {
+    background-color: #2D235C;
+    color: #fff;
+}
+
+button.dark-mode:hover {
+    background-color: #C1A5A9;
+}
+
 /* Sobre */
 
-body {
-    background-color: black;
-    color: white;
-}
 
 main {
     display: inline-flex;
 }
 
-
-.box1 {
-    display: block;
-    margin: 60px 0px;
-    padding: 70px 60px;
-    background-image: url(../Imagens/Untitled\ design\ \(1\).png);
-    background-repeat: no-repeat;
-}
-
 h1 {
     font-size: 70px;
+}
+
+.box1 {
+    margin-top: 150px;
 }
 
 .sub {
@@ -121,7 +161,7 @@ h3 {
 /* Fale Comigo */
 
 #Falecomigo {
-    text-align: center  ;
+    text-align: center ;
 }
 
 .assunto {
@@ -159,6 +199,7 @@ label {
 .enviar {
     transition: color 0.5s;
     transition: background-color 0.5s;
+    margin-bottom: 100px;
 }
 
 .enviar:hover {
@@ -197,4 +238,3 @@ a {
 figcaption {
     color: white;
 }
-
